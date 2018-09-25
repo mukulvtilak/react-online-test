@@ -13,7 +13,7 @@ import TextField from '@material-ui/core/TextField';
 import Tooltip from '@material-ui/core/Tooltip';
 
 //Data File
-import { projectTaskData } from 'Routes/widgets/data';
+import { projectTaskData } from './data';
 
 // rct section loader
 import RctSectionLoader from 'Components/RctSectionLoader/RctSectionLoader';
