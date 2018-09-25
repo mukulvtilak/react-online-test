@@ -65,6 +65,7 @@ class StudentDetails extends Component {
         {loading &&
           <LinearProgress />
         }
+        <FullScreenDialog/>
         <AppBar position="static" className="session-header">
           <Toolbar>
             <div className="container">
