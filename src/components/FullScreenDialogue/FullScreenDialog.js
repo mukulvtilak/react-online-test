@@ -21,7 +21,7 @@ function Transition(props) {
 
 export default class FullScreenDialog extends React.Component {
 	state = {
-		open: false,
+		open: true,
 	};
 
 	handleClickOpen = () => {
@@ -35,7 +35,7 @@ export default class FullScreenDialog extends React.Component {
 	render() {
 		return (
 			<div>
-				<Button variant="raised" className="btn-danger text-white btn-block" onClick={this.handleClickOpen}>Open full-screen dialog</Button>
+				<Button variant="raised" className="btn-danger text-white btn-block" onClick={this.handleClickOpen}>View Instructions</Button>
 				<Dialog fullScreen
 					open={this.state.open}
 					onClose={this.handleClose}
@@ -45,7 +45,7 @@ export default class FullScreenDialog extends React.Component {
 							<IconButton color="inherit" onClick={this.handleClose} aria-label="Close">
 								<CloseIcon />
 							</IconButton>
-							<h5 className="w-100 mb-0">Sound</h5>
+							<h5 className="w-100 mb-0">Instructions</h5>
 							<Button color="inherit" onClick={this.handleClose}>save</Button>
 						</Toolbar>
 					</AppBar>
