@@ -1,6 +1,4 @@
-# Reactify
-
-> A material design reactjs admin template
+# Online Tests in Reactjs
 
 ## Build Setup
 
